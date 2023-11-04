@@ -1,22 +1,29 @@
 .navbar {
   background-color: #333;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 3.75em;
+  padding: 1.25em 2.5em;
 }
 
-.navbar ul {
+.nav_items {
   list-style: none;
   padding: 0;
+  display: flex;
+  gap: 3em;
 }
 
-.navbar li {
-  text-decoration: none;
+.nav_items li {
+  list-style: none;
 }
 
-.navbar a {
+.nav_items a {
   color: #fff;
   text-decoration: none;
 }
 
-.navbar .active {
+.nav_items .active {
   color: green;
 }

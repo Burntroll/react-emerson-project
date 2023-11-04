@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <nav className="navbar">
-        <ul>
+        <ul className="nav_items">
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
